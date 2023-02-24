@@ -1,0 +1,11 @@
+public class RandomNumGenerator {
+    public static int generateRandomNum(int min, int max) {
+        return (int) (Math.random() * (max - min + 1) + min);
+    }
+    public static int generateRandomNum(float min, float max) {
+        return (int) (Math.random() * (max - min + 1) + min);
+    }
+    public static int generateRandomNum(double min, double max) {
+        return (int) (Math.random() * (max - min + 1) + min);
+    }
+}
